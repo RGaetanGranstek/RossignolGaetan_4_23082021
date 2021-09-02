@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+}
+section {
+    display: flex;
+    justify-content: space-around;
+}
+.black-background {
+    background: linear-gradient(to left,#443d3632,#443d36,#443d36,#443d3632);
+    padding: 40px 40px 40px 40px;
+    border-radius: 10px;
+}
+.font-orange {
+    color: #F3976C;
+}
+.bg-banniere {
+    background-image: url("../Site_Original/img/la-chouette-agence-banniere.jpg");
+}
