@@ -708,7 +708,12 @@ a {
     max-width: 400px;
     margin: auto auto auto auto;
 }
-
+.social a {
+    display: grid;
+}
+.col-sm-3 {
+    font-size: 1.5rem;
+}
 h2 {
     font-size: 26px;
     line-height: 1.4em;
