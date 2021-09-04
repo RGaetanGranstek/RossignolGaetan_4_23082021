@@ -582,6 +582,8 @@ a[data-lightbox]:hover img {
 }
 
 .lightbox-caption {
+    font-size: 16px;
+    text-align: center;
     padding: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
