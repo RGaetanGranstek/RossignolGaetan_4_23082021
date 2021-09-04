@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #FFF;
+    font-size: 20px;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -457,11 +458,13 @@ nav .caret {
     margin: 0 0 5px 5px;
 }
 
-.btn-d,
+.btn-d {
+    border: 2px solid #000000;
+    background: #F3976C;
+}
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: #89C256;
 }
 
 button {
@@ -515,8 +518,6 @@ button {
 }
 
 .scrollToTop {
-    width: 40px;
-    height: 40px;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -680,17 +681,17 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 16px;
+.tight-width-whitespace-second-bloc {
+    max-width: 700px;
+    margin: auto auto auto auto;
 }
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Open Sans";
 }
 
@@ -727,6 +728,7 @@ h3 {
 }
 
 h1 {
+    margin-bottom: 20px;
     color: #333333!important;
 }
 
@@ -745,9 +747,23 @@ h4 {
 .grey {
     color: #443D36!important;
 }
-
+.center-partenaire {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+.modification-partenaire {
+    padding: 0;
+    list-style-type: none;
+}
+.modification-partenaire a:hover {
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 2.2rem;
+    background-color: #89C256;
+}
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: auto auto 24px auto;
 }
 
 .portfolio-row {
@@ -1044,6 +1060,13 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .col-sm-3 {
+        width: 25%;
+        float: left;
+    }
+    .col-sm-3-bis {
+        width: 20%;
+    }
     .bloc-mob-center-text {
         text-align: center;
     }
